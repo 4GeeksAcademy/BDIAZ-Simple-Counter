@@ -3,8 +3,10 @@ import SecondsCounter from "./SecondsCounter.jsx";
 
 //create your first component
 const Home = () => {
+	let counter = 0; 
+
 	return (
-		<SecondsCounter />
+		<SecondsCounter seconds = {counter}/>
 	);
 };
 

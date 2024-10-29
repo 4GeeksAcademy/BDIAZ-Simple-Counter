@@ -5,7 +5,7 @@ const Card = (props) => {
 	return (
 		<div className="card bg-dark border border-light">
             <div className="card-body d-flex justify-content-center align-items-center">
-                <h1 className="card-text text-white">{props.seconds}</h1>
+                <h1 className="card-text text-white">{props.number}</h1>
             </div>
         </div>
 	);
